@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<script src="map.js"></script>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-purple w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>MT</b> Projects</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#contact" class="w3-bar-item w3-button">Profile</a>
+    </div>
+  </div>
+</div>
+
+<!--slideshow-->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="mySlides" src="http://www.sclance.com/backgrounds/aesthetic-city-background/aesthetic-city-background_55479.jpg" width="1500" height="800">
+    <img class="mySlides" src="https://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5c8995696e9a7f44b8ee4dc0/5b2e5565758d46fa66d4614a/1536199013310/pink+day+to+night+downtown+la.png?format=1000w" width="1500" height="800">
+    <img class="mySlides" src="https://images.unsplash.com/photo-1535013113415-b315146c67d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" width="1500" height="800">
+    <img class="mySlides" src="https://static1.squarespace.com/static/5813cddb8419c25c3b42eacd/5813e156414fb51499dfe55c/58169de86b8f5b0e59ba70c2/1548999077173/?format=1000w" width="1500" height="800">
+  </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>MT</b></span> <span class="w3-hide-small w3-text-light-grey">Projects</span></h1>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!DOCTYPE html>
+  <html>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+  <body>
+
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://www.travelanddestinations.com/wp-content/uploads/2019/01/Osaka-Japan-at-night.jpg" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Who I am</h1><br>
+      <p class="w3-large">Hello, my name is Melissa and I’m currently a high school student attending <a href="https://king.kippbayarea.org"> Kipp King</a>. I’ve never been into coding until recently, when I saw my brother coding for his job. I’m still learning the basics of it but I’m slowly getting the hang of it. I’m hoping to make a project that will at least impact a small amount of people.</p>
+      <p class="w3-large w3-hide-medium">I’m not much of a socializer, but I like spending my time at home baking or shopping for unnecessary things online. If I can I would love to travel outside of the country and experience other cultures in places like Japan or Korea. I enjoy the thrill of roller coasters and one day I would like to go ziplining or skydiving. I guess you can say that I like adrenaline.</p>
+    </div>
+  </div>
+
+
+
+  <div class="w3-row-padding w3-grayscale">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Profile</h3>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://i.imgur.com/gAn1QrF.jpg" alt="Melissa Tam" height="350" with="350">
+      <h3>Melissa Tam</h3>
+      <p class="w3-opacity">Founder</p>
+      <p>She is nice.Please like her.</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/20258297_1375508835820309_6525343385293649143_n.jpg?_nc_cat=108&_nc_oc=AQkpoW2A15EeKYmNBM-IDGubkGHMKqu0_eqDoKZNegXz4QoFsgEtVI67WKUomvkbPU8&_nc_ht=scontent-lax3-2.xx&oh=5324f726029e69316c4113be366cf8fc&oe=5DB35DB9" alt="Barack Obama" height="350" with="350">
+      <h3>Barack Obama</h3>
+      <p class="w3-opacity">Co-Founder</p>
+      <p>He was our best president. Stan him. Donald Trump who?</p>
+      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+  </div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="/action_page.php" target="_blank">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+    </form>
+  </div>
+
+<!-- Image of location/map -->
+<div class="w3-container">
+  <a href="https://www.bk.com">
+<img border="0" alt="W3Schools" src="https://d2z1w4aiblvrwu.cloudfront.net/ad/wbtt/burger-king-big-deal-on-a-big-meal-large-10.jpg" width="1200" height="700">
+</a>
+</p>
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
